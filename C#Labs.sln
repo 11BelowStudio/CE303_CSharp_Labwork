@@ -1,29 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{06696615-FD14-43CC-92CE-44BC7FA2A411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1Ex1", "Lab1\Ex1\Lab1Ex1.csproj", "{16399301-E15C-4F78-948F-E84B9C647618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1Ex1", "Lab1\Ex1\Lab1Ex1.csproj", "{16399301-E15C-4F78-948F-E84B9C647618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1Ex2", "Lab1\Ex2\Lab1Ex2.csproj", "{148D5244-45EA-49F6-8CD1-E694897B876D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1Ex2", "Lab1\Ex2\Lab1Ex2.csproj", "{148D5244-45EA-49F6-8CD1-E694897B876D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{AC8466F0-B7CB-45AC-B226-659096CC1529}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1Console", "Lab2\Ex1Console\Ex1Console.csproj", "{2104F176-D79F-4DC4-B93C-DFC7B8676203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1Console", "Lab2\Ex1Console\Ex1Console.csproj", "{2104F176-D79F-4DC4-B93C-DFC7B8676203}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveLibrary", "Lab2\SieveLibrary\SieveLibrary.csproj", "{9EE3BF5E-F996-42F1-B70C-450F62E8AB5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SieveLibrary", "Lab2\SieveLibrary\SieveLibrary.csproj", "{9EE3BF5E-F996-42F1-B70C-450F62E8AB5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveTest", "Lab2\SieveTest\SieveTest.csproj", "{A4555400-7832-4FD9-9BC0-845E4091F5D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SieveTest", "Lab2\SieveTest\SieveTest.csproj", "{A4555400-7832-4FD9-9BC0-845E4091F5D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab4", "Lab4", "{F64A2972-E918-4EEC-A65B-28554FEE281D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex7", "Ex7", "{A682B09D-0B3E-4D5A-9F25-1E9B96B1512F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankClient", "Lab4\Ex7\BankClient\BankClient.csproj", "{E3D2A3C4-BE0C-44F8-9F60-9DB7CC287D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankClient", "Lab4\Ex7\BankClient\BankClient.csproj", "{E3D2A3C4-BE0C-44F8-9F60-9DB7CC287D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankServer", "Lab4\Ex7\BankServer\BankServer.csproj", "{C46725BC-4E2E-4410-B602-EAF9A24914C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankServer", "Lab4\Ex7\BankServer\BankServer.csproj", "{C46725BC-4E2E-4410-B602-EAF9A24914C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab6", "Lab6\Lab6.csproj", "{0CEE12CB-8D61-4858-9F72-442B30AF4739}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{16399301-E15C-4F78-948F-E84B9C647618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -122,6 +121,21 @@ Global
 		{C46725BC-4E2E-4410-B602-EAF9A24914C0}.Release|x64.Build.0 = Release|Any CPU
 		{C46725BC-4E2E-4410-B602-EAF9A24914C0}.Release|x86.ActiveCfg = Release|Any CPU
 		{C46725BC-4E2E-4410-B602-EAF9A24914C0}.Release|x86.Build.0 = Release|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Debug|x64.Build.0 = Debug|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Debug|x86.Build.0 = Debug|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Release|x64.ActiveCfg = Release|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Release|x64.Build.0 = Release|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Release|x86.ActiveCfg = Release|Any CPU
+		{0CEE12CB-8D61-4858-9F72-442B30AF4739}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{16399301-E15C-4F78-948F-E84B9C647618} = {06696615-FD14-43CC-92CE-44BC7FA2A411}
@@ -132,5 +146,8 @@ Global
 		{A682B09D-0B3E-4D5A-9F25-1E9B96B1512F} = {F64A2972-E918-4EEC-A65B-28554FEE281D}
 		{E3D2A3C4-BE0C-44F8-9F60-9DB7CC287D06} = {A682B09D-0B3E-4D5A-9F25-1E9B96B1512F}
 		{C46725BC-4E2E-4410-B602-EAF9A24914C0} = {A682B09D-0B3E-4D5A-9F25-1E9B96B1512F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {604F113E-A0BD-4E16-8B46-92C318E25D4D}
 	EndGlobalSection
 EndGlobal
